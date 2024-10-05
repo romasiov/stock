@@ -1,0 +1,27 @@
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+#login-section {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#game-section {
+    margin: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 10px;
+}

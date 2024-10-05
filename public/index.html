@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Игра с акциями</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="login-section">
+        <h1>Выберите игрока:</h1>
+        <select id="player-select"></select>
+        <button id="login-btn">Войти</button>
+    </div>
+
+    <div id="game-section" style="display: none;">
+        <h2>Игрок <span id="player-id"></span></h2>
+        <div>
+            <h3>Ваши акции:</h3>
+            <ul id="player-portfolio"></ul>
+        </div>
+        <div>
+            <h3>Деньги: $<span id="player-cash"></span></h3>
+        </div>
+
+        <div>
+            <h3>Выставить акции на продажу:</h3>
+            <select id="sell-color">
+                <option value="blue">Синие</option>
+                <option value="red">Красные</option>
+                <option value="green">Зеленые</option>
+            </select>
+            <input type="number" id="sell-amount" min="1" placeholder="Кол-во">
+            <button id="sell-btn">Продать</button>
+        </div>
+
+        <div>
+            <h3>Рынок:</h3>
+            <ul id="market-list"></ul>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
